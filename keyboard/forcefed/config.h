@@ -24,9 +24,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define VENDOR_ID       0xFEED
 #define PRODUCT_ID      0x6060
 #define DEVICE_VER      0x0001
-#define MANUFACTURER    Matt
-#define PRODUCT         TrianglyForceFedKeyboard
-#define DESCRIPTION     A ForceFed Keyboard Product
+#define MANUFACTURER    fl8s
+#define PRODUCT         slimfinger
+#define DESCRIPTION     slimfinger keyboard
 
 /* key matrix size */
 #define MATRIX_ROWS 4
@@ -36,7 +36,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // Planck PCB default pin-out
 // Change this to how you wired your keyboard
 // COLS: Left to right, ROWS: Top to bottom
-#define COLS (int []){ D7, E6, B4, B5, B6, B2, B3, B1, F7, F6, F5, F4 }
+// #define COLS (int []){ D7, E6, B4, B5, B6, B2, B3, B1, F7, F6, F5, F4 }
+//
+#define COLS (int []){ F4, F5, F6, D2, F7, B1, B2, B3, B6, B5, B4, E6, D7 }
 #define ROWS (int []){ D1, D0, D4, C6 }
 
 /* COL2ROW or ROW2COL */
@@ -46,7 +48,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 //#define MATRIX_HAS_GHOST
 
 /* number of backlight levels */
-#define BACKLIGHT_LEVELS 3
+// #define BACKLIGHT_LEVELS 3
 
 /* Set 0 if debouncing isn't needed */
 #define DEBOUNCE    5
