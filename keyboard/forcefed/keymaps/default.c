@@ -19,10 +19,10 @@
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [_QW] = { /* Qwerty */
-  {KC_ESC,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,     KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_MINS, KC_DELETE},
-  {KC_LCTRL,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,     KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT},
-  {KC_LSHIFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,     KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_BSLASH},
-  {MO(_RS),   KC_ESC,  KC_TAB,  KC_LGUI, KC_LSFT, KC_BSPC,  KC_LCTL, KC_SPC,  MO(_RS), KC_MINS, KC_QUOT, KC_ENT}
+  {KC_ESC,    KC_Q,    KC_W,    KC_E,    KC_R,    KC_T,     KC_Y,    KC_U,    KC_I,    KC_O,    KC_P,    KC_MINS, KC_DELETE}, //13
+  {KC_LCTRL,  KC_A,    KC_S,    KC_D,    KC_F,    KC_G,     KC_H,    KC_J,    KC_K,    KC_L,    KC_SCLN, KC_QUOT, KC_ENT},    //13
+  {KC_LSHIFT, KC_Z,    KC_X,    KC_C,    KC_V,    KC_B,     KC_TRNS, KC_N,    KC_M,    KC_COMM, KC_DOT,  KC_SLSH, KC_BSLASH}, //12
+  {MO(_RS),   KC_LGUI, KC_LALT, KC_LBRC, KC_SPC,  KC_RBRC,  KC_TRNS, KC_TRNS, KC_SPC,  KC_RBRC, KC_TRNS, RESET,   MO(_LW) }   //9
 },
 [_RS] = { /* [> RAISE <] */
   {KC_EXLM, KC_AT,   KC_LCBR, KC_RCBR, KC_PIPE, KC_TRNS, KC_PGUP, KC_7,    KC_8,   KC_9, KC_ASTR},

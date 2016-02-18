@@ -38,7 +38,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // COLS: Left to right, ROWS: Top to bottom
 // #define COLS (int []){ D7, E6, B4, B5, B6, B2, B3, B1, F7, F6, F5, F4 }
 //
-#define COLS (int []){ F4, F5, F6, D2, F7, B1, B2, B3, B6, B5, B4, E6, D7 }
+#define COLS (int []){ F4, F5, F6, F7, D2, B3, B1, B2, B6, B5, B4, E6, D7 }
 #define ROWS (int []){ D1, D0, D4, C6 }
 
 /* COL2ROW or ROW2COL */
